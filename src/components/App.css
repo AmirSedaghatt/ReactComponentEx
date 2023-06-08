@@ -1,0 +1,101 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+/* body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+} */
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card {
+    width: 350PX;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    margin: 10px;
+}
+
+.CardImage {
+    background-image: url(../car.jpg);
+    width: 350px;
+    height: 125px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 6px 6px 0 0;
+}
+
+.CardTitle {
+    margin: 12px 0;
+}
+
+.Title {
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.CardDesc {
+    width: 100%;
+    margin: 0 0 12px 0;
+}
+
+.DescWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    padding: 0 14px;
+}
+
+.Desc {
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #79777B;
+}
+
+.CardBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnWrapper {
+    width: 40%;
+}
+
+.Btn {
+    padding: 12px;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #0085fa;
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    opacity: 0.7;
+}
